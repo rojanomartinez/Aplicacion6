@@ -2,7 +2,7 @@
 $(document).ready(function(e) {
     document.addEventListener( 'deviceready', function() {
 		$('#btnvibrar').on('tap',function() {
-			navigator.notification.vibrate(30000);
+			navigator.notification.vibrate(90000);
     });
   });
 });
